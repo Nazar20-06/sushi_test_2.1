@@ -1,0 +1,167 @@
+@media (max-width: 1460px) {
+    #menu_sushi {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #sushi_menu {
+        width: 934px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-image: url(foto/sushi_mais_mt.png);
+    }
+}
+
+
+@media (max-width: 1000px) {
+    #menu_sushi {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #sushi_menu {
+        width: 700px;
+    }
+}
+
+@media (max-width: 710px) {
+    #menu_sushi {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #sushi_menu {
+        width: 320px;
+    }
+
+    .menu_item {
+        background-color: #FBF6F4;
+        height: 70px;
+        border-radius: 15px;
+        border: 2px solid #77777733;
+    }
+
+    .foto_men {
+        height: 35px;
+    }
+
+    .text_men {
+        margin-top: 10px;
+        color: #E53935;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    #city {
+        height: 50%;
+        width: 100px;
+        background-color: #fff;
+        border-radius: 15px;
+        display: flex;
+        margin-left: 0;
+        margin-right: 2%;
+        border: 2px, solid, #E53935;
+        padding: 0;
+        gap: 5px;
+    }
+
+    #city_img{
+        height: 20px;
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #text_city {
+        color: #E53935;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+    #basket {
+        height: 30px;
+        width: 36px;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    #main_web {
+        margin-bottom: 350px;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    #menu_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 860px) {
+    #city_but {
+        width: 395px;
+        grid-template-columns: repeat(3, 120px);
+    }
+}
+
+@media (max-width: 470px) {
+    #city_but {
+        width: 300px;
+        grid-template-columns: repeat(3, 90px);
+    }
+
+    .city_button {
+        height: 100px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    #text_h {
+        font-size: 30px;
+    }
+    #text_h_1 {
+        font-size: 15px;
+    }
+    #main_web {
+        background: linear-gradient(to right, #F7F3EE99, transparent 55%) ;
+
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 510px) {
+    #text_h {
+        font-size: 18px;
+    }
+
+    #text_h_1 {
+        font-size: 10px;
+    }
+
+    #zam {
+        width: 80%;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+
+
+

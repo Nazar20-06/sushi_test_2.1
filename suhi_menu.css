@@ -1,0 +1,160 @@
+#card_a {
+    height: 240px;
+    width: 500px;
+    background-color: #F7F3EE80;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-right: 10px;
+    justify-content: space-between;
+    
+}
+
+#card_a:hover {
+    background-color: #F7F3EE90;
+}
+
+
+#photo_sushi {
+    height: 200px;
+}
+
+#card_text_a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 150px;
+    height: 90%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#text {
+    text-align: left;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #E53935;
+    text-align: left;
+}
+
+.add_button {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #990000;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+#prise {
+    font-size: 20px;
+    font-weight: 700;
+    color: #990000;
+    margin-top: auto;
+    text-align: right;
+}
+
+#masa {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    #card_a {
+        height: 360px;
+        width: 750px;
+    }
+
+    #photo_sushi {
+        height: 300px;
+    }
+
+    #prise {
+        
+        margin-top: 160px;
+    }
+
+    #card_text_a {
+        width: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    #card_a {
+        width: 340px;
+        height: 163px;
+        padding-top: 10px;
+    }
+
+    #photo_sushi {
+        height: 135px;
+    }
+
+    #card_text_a {
+        width: 100px;
+    }
+
+    #text {
+        text-align: left;
+        font-size: 10px;
+    }
+
+    #name {
+        font-size: 15px;
+
+    }
+
+    #prise {
+        font-size: 13px;
+    }
+
+    #masa {
+        font-size: 10px;
+    }
+
+    #add_button {
+    height: 20px;
+}
+
+}
+
+@media (max-width: 480px) {
+    #card_a {
+        width: 255px;
+        height: 120px;
+    }
+
+    #photo_sushi {
+        height: 99px;
+    }
+
+    #card_text_a {
+        width: 74px;
+    }
+
+    #text {
+        text-align: left;
+        font-size: 7px;
+    }
+
+    #name {
+        font-size: 11px;
+    }
+
+    #prise {
+        font-size: 7px;
+    }
+
+    #masa {
+        font-size: 7px;
+    }
+}

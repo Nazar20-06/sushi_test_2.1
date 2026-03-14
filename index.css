@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("foto/sushi_maist.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-position-x: center;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #F7F3EE ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+#menu {
+    height: 50px;
+    width: 50px;
+    background-color: #F7F3EE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border: none;
+}
+
+#menu:hover .lin {
+    background-color: #E53935;
+}
+
+#menu .lin {
+    background-color: #1F1F1F;
+    width: 90%;
+    height: 5px;
+    border-radius: 2px;
+}
+
+#name_web {
+    color: #1F1F1F;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#name_web span {
+    color: #E53935;
+}
+
+
+#basket {
+    background-image: url(foto/b.png);
+    height: 40px;
+    width: 48px;
+    background-size: cover;
+    border: none;
+    margin-right: 2%;
+    margin-left: auto;
+    display: flex;
+    padding: 0;
+
+}
+
+#count {
+    height: 15px;
+    width: 15px;
+    background-color: #E53935;
+    margin-right: 0;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 2px solid #FBF6F4;
+    color: #FBF6F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+}
+
+
+#city {
+    height: 60%;
+    width: 170px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 2%;
+    border: 2px, solid, #E53935;
+    padding: 0;
+    gap: 5px;
+}
+
+#city_img{
+    height: 80%;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#text_city {
+    color: #E53935;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+
+#city_but {
+    height: auto;
+    width: 800px;
+    background-color: #F7F3EE;
+    border-radius: 15px;
+    display: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    gap: 15px;
+    grid-template-columns: repeat(6, 120px);
+    
+}
+
+#city_but.active {
+    display: grid;
+}
+
+.city_button {
+    background-color: #FFF;
+    height: 140px;
+    border-radius: 15px;
+    border: 2px solid #77777733;
+    color: #E53935;
+    font-size: 20px;
+    font-weight: 600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+    display: flex;          
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+#kiev {
+    background-image: url(foto/city/kiyv.png);
+}
+
+#lck {
+    background-image: url(foto/city/lck.png);
+}
+
+#rivne {
+    background-image: url(foto/city/rivne.png);
+}
+
+#lviv {
+    background-image: url(foto/city/lviv.png);
+}
+
+#odesa {
+    background-image: url(foto/city/odesa.png);
+}
+
+#dnipro {
+    background-image: url(foto/city/dnipro.png);
+}
+
+.city_button:hover {
+    border: 2px solid #E53935;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#text_menu {
+    font-size: 30px;
+    font-weight: 700;
+    color: #E53935;
+    margin-left: 1%;
+}
+
+#sushi_menu {
+    height: auto;
+    width: 1400px;
+    background-color: #F7F3EE;
+    border-radius: 15px;
+    display: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+#menu_sushi {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.menu_item {
+    background-color: #FBF6F4;
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid #77777733;
+}
+
+.menu_item:hover {
+    border: 2px solid #E53935;
+}
+
+#sushi_menu.active {
+    display: grid;
+}
+
+
+.foto_men {
+    height: 70px;
+}
+
+.text_men {
+    margin-top: 10px;
+    color: #E53935;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#main_web {
+    height: auto;
+    width: 65%;
+    background: linear-gradient(to right, #F7F3EE99, transparent 55%) ;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+
+}
+
+#main_text {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20%;
+}
+
+#main_text.active {
+    display: none;
+}
+
+
+#text_h {
+    color: #1F1F1F;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#text_h span {
+    color: #8B0000;
+}
+
+#text_h_1 {
+    font-size: 20px;
+    color: #1F1F1F;
+    font-weight: 700;
+}
+
+#gal {
+    font-weight: 700;
+}
+
+#zam {
+    width: 300px;
+    height: 50px;
+    background-color: #8B0000;
+    color: #FBF6F4;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+}
+
+#zam:hover {
+    background-color: #E53935;
+}
+
+
+#menu_div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    gap: 30px;
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+#menu_div.active {
+    display: grid;
+}
+
+
+

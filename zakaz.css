@@ -1,0 +1,52 @@
+#card_a_z {
+    height: 140px;
+    width: 460px;
+    background-color: #F7F3EE80;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    
+}
+
+#prise_tot  {
+    font-size: 25px;
+    font-weight: 700;
+    color: #990000;
+    text-align: left;
+    
+}
+
+#zak_button {
+    margin-bottom: 20px;
+    background-color: #990000;
+    width: 60%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+#zak_button:hover {
+    background-color: #E53935;
+}
+
+@media (max-width: 640px) {
+    #card_a_z {
+        height: 100px;
+        width: 240px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #prise_tot  {
+        font-size: 20px;
+    }
+}
